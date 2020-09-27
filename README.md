@@ -2,8 +2,8 @@
 
 #### Assignment Summary
 
-- Task 1 Completed
-- Task 2 Started
+- Task 1: Completed
+- Task 2: Brainstorming
 - Total Time Spent on Assignment:
   - 2.5-3.0 hours on Task 1
     - Most of the time spent was on attempting to understand the data set, verifying the quality of the data, creating features for task 1, and waiting for the data to process.
@@ -64,4 +64,26 @@ The charts below are very similar to above except the color now shows units fini
 - Similar to the above statistical tests would be used to determine whether the effect we are seeing is significant or could have occured by chance.
 
 ### Task 2
+
+#### EDA/Insights I Would Dig Into If I Had More Time:
+
+- Response time by order that each unit arrived in. For example, does the second or third dispatched unit take more time than the first unit.
+  - What percentage of the time are the second and other units on scene after the first one?
+- Does the response time vary by the the location of the incident? 
+  - Does it vary by the location of the prior incident?
+  - Are certain neighborhoods, locations, roads, etc. more prone to incidents?
+  - Can this be used to predict the time to get to the incident?
+  - Can this be used to choose the unit that is closest to the incident or closest to finishing up, instead of dispatching a free unit that is far away?
+  - How far do units typically travel?
+- What other factors cause the response time to vary? 
+  - Time of day: Morning, evening, night
+  - Holidays or special events; ex: Immediately after lunch, dinner, football games
+- Are there are trends by the incident type? 
+  - For example, are certain incidents growing at a faster rate than other incidents? Declining faster?
+  - Do certain incidents require more or less units on the scene?
+  - Are these exceptions to this? Should these be flagged as a possible over or under staffed incident?
+- Can we predict the number and type of incidents? 
+  - Are certain areas more prone to certain types of incidents? 
+  - Can this model be used to schedule appropriately?
+- Can we calculated idle time of each unit?
 
